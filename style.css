@@ -13,7 +13,7 @@ body {
 .baner img {
     width: 100%;
 }
-.more-inf {
+.banner__more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -33,7 +33,7 @@ body {
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.main__task-row-wrapper {
     display: flex;
 }
 ul {
@@ -121,12 +121,12 @@ li > label {
 li > input[type="text"] {
     width: 226px;
 }
-.delete img {
+.main__delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.main__delete img:hover {
     transform: rotateZ(0);
 }
 
@@ -141,11 +141,11 @@ ul li input[type="text"] {
     display: none;
 }
 
-.editMode input[type="text"] {
+.main__editMode input[type="text"] {
     display: inline-block;
     width: 224px;
 }
 
-.editMode label {
+.main__editMode label {
     display: none;
 }
