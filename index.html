@@ -6,30 +6,30 @@
   <body>
     <div class="baner"><img src="./eisenhower-matrix.jpg" alt="banner"><a class="banner__more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></div>
     <section class="main">
-      <section id="add-task"><label for="new-task">Add Item</label>
-        <div class="main__task-row-wrapper"><input id="new-task" class="task" type="text">
-          <button>Add</button>
+      <section id="add-task"><label for="new-task" class="main__new-task">Add Item</label>
+        <div class="main__task-row-wrapper"><input id="new-task" class="task main__change-text" type="text">
+          <button class="button">Add</button>
         </div>
     </section>
     <h3>Todo</h3>
       <ul id="incomplete">
         <li>
-          <input type="checkbox"><label class="task">Pay Bills</label><input type="text" class="task">
-          <button class="main__edit">Edit</button>
-          <button class="main__delete"><img src="./remove.svg" alt="remove"></button>
+          <input type="checkbox"><label class="task">Pay Bills</label><input type="text" class="task main__change-text">
+          <button class="main__edit button">Edit</button>
+          <button class="main__delete button"><img src="./remove.svg" alt="remove"></button>
         </li>
         <li class="main__editMode">
-          <input type="checkbox"><label class="task">Go Shopping</label><input type="text" value="Go Shopping" class="task">
-          <button class="main__edit">Save</button>
-          <button class="main__delete"><img src="./remove.svg" alt="remove"></button>
+          <input type="checkbox"><label class="task">Go Shopping</label><input type="text" value="Go Shopping" class="task main__change-text">
+          <button class="main__edit button">Save</button>
+          <button class="main__delete button"><img src="./remove.svg" alt="remove"></button>
         </li>
       </ul>
     <h3>Completed</h3>
       <ul id="completed-tasks">
         <li>
-          <input type="checkbox" checked><label class="task">See the Doctor</label><input type="text" class="task">
-          <button class="main__edit">Edit</button>
-          <button class="main__delete"><img src="./remove.svg" alt="remove"></button>
+          <input type="checkbox" checked><label class="task">See the Doctor</label><input type="text" class="task main__change-text">
+          <button class="main__edit button">Edit</button>
+          <button class="main__delete button"><img src="./remove.svg" alt="remove"></button>
         </li>
       </ul>
     </section>
